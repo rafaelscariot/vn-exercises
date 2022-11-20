@@ -6,6 +6,8 @@ class GetCountryInformationService {
   }
 
   countryWithMostOfficialLanguages(germanIncluded = false) {
+    if (typeof germanIncluded !== "boolean") throw new Error("INVALID_PARAM");
+
     let countryName = "";
     let countryLanguagesLength = 0;
 

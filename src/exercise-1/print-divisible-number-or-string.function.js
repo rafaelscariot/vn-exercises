@@ -1,4 +1,4 @@
-const printDivisibleNumberOrString = (maxNumber) => {
+const printDivisibleNumberOrStringFunction = (maxNumber) => {
   if (typeof maxNumber !== "number") throw new Error("INVALID_MAX_NUMBER");
 
   let index = 1;
@@ -22,4 +22,4 @@ const printDivisibleNumberOrString = (maxNumber) => {
   }
 };
 
-module.exports = printDivisibleNumberOrString;
+module.exports = printDivisibleNumberOrStringFunction;
