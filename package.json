@@ -1,0 +1,23 @@
+{
+  "name": "vn-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercise-1.js",
+  "scripts": {
+    "exercise1": "node src/exercise-1/main.js",
+    "test": "NODE_PATH=. jest --detectOpenHandles --runInBand --testMatch '<rootDir>/test/**/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelscariot/vn-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelscariot/vn-exercises/issues"
+  },
+  "homepage": "https://github.com/rafaelscariot/vn-exercises#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
